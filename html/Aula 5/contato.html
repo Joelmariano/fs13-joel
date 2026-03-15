@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <div align="center">
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo" width="300px">
+        </a>
+    </div>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aura Bolsas - Contato</title>
 </head>
 <body>
     <header>
-        <h1>Aura Bolsas</h1>
         <nav>
-            <ul>
+            <ul style="list-style: none; display: flex; justify-content: center; gap: 20px;">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" style="color: black; text-decoration: none;">HOME</a>
                 </li>
                 <li>
-                    <a href="sobre.html">Sobre Nós</a>
+                    <a href="sobre.html" style="color: black; text-decoration: none;">SOBRE NOS</a>
                 </li>
                 <li>
-                    <a href="produtos.html">Nossos Produtos</a>
+                    <a href="produtos.html" style="color: black; text-decoration: none;">PRODUTOS</a>
                 </li>
                 <li>
-                    <a href="contato.html">Contato</a>
+                    <a href="contato.html" style="color: black; text-decoration: none;">CONTATO</a>
                 </li>
             </ul>
         </nav>
+        <!-- <img 
+            src="img/bannerprincipal.png"
+            alt="bolsa aura"
+            width="100%"
+            > -->
+        <h1 align="center">CONTATO</h1>
     </header>
     <main>
         <h2>Fale Conosco / Cadastre-se</h2>
@@ -44,10 +54,11 @@
                     <input type="tel" id="telefone" name="telefone">
                 </p>
             </fieldset>
-            <fieldset>
+            <fieldset">
                 <legend>Interesse</legend>
                 <p>
-                    <label for="motivo">Motivo do Contato:</label><br>
+                    <label for="motivo">Motivo do Contato:</label>
+                    <br>
                     <select id="motivo" name="motivo">
                         <option value="varejo">Compra no Varejo</option>
                         <option value="atacado">Revenda / Atacado</option>
@@ -55,7 +66,8 @@
                     </select>
                 </p>
                 <p>
-                    <label for="mensagem">Mensagem:</label><br>
+                    <label for="mensagem">Mensagem:</label>
+                    <br>
                     <textarea id="mensagem" name="mensagem" rows="5" cols="40"></textarea>
                 </p>
             </fieldset>
@@ -66,7 +78,24 @@
         </form>
     </main>
     <hr>
-    <footer>
+    <footer align="center" style="background-color: rgb(202, 202, 202); color: rgb(0, 0, 0); margin-top:20px; padding: 5px;"">
+        <nav style="align-items: center;">
+            <ul style="list-style: none; display: flex; justify-content: center; gap: 20px;">
+                <li>
+                    <a href="index.html" style="color: black; text-decoration: none;">HOME</a>
+                </li>
+                <li>
+                    <a href="sobre.html" style="color: black; text-decoration: none;">SOBRE NOS</a>
+                </li>
+                <li>
+                    <a href="produtos.html" style="color: black; text-decoration: none;">PRODUTOS</a>
+                </li>
+                <li>
+                    <a href="contato.html" style="color: black; text-decoration: none;">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+        <p>Rua 24 de Maio, 123 - São Paulo/SP</p>
         <p>&copy; 2026 Aura Bolsas. Todos os direitos reservados.</p>
     </footer>
 </body>
