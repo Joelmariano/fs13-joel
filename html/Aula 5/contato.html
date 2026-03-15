@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Bolsas - Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Aura Bolsas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Nossos Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Fale Conosco / Cadastre-se</h2>
+        <p>Preencha o formulário abaixo para receber nossas novidades, catálogos para revenda ou para tirar dúvidas.</p>
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                
+                <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="telefone">Telefone (WhatsApp):</label><br>
+                    <input type="tel" id="telefone" name="telefone">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Interesse</legend>
+                
+                <p>
+                    <label for="motivo">Motivo do Contato:</label><br>
+                    <select id="motivo" name="motivo">
+                        <option value="varejo">Compra no Varejo</option>
+                        <option value="atacado">Revenda / Atacado</option>
+                        <option value="duvida">Dúvidas Gerais</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="40"></textarea>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit">Enviar Cadastro</button>
+                <button type="reset">Limpar Formulário</button>
+            </p>
+        </form>
+    </main>
+
+    <hr>
+    <footer>
+        <p>&copy; 2026 Aura Bolsas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
