@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Código | Culinária Artesanal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sabor & Código</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#pratos">Pratos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>A melhor experiência gastronômica digital</h2>
+            <p>Pratos feitos com amor e técnica de sobra.</p>
+        </section>
+
+        <section id="sobre" class="content-section">
+            <h2>Nossa História</h2>
+            <p>Nascemos na Aula 07 de Full Stack para servir o melhor conteúdo.</p>
+        </section>
+        <section id="pratos">
+            <h2>Destaques do Cardápio</h2>
+            <div id="cards">
+                <div class="card">
+                <div 
+                    class="card-image" 
+                    style="background-image: url('img/salada-fresh.webp');"
+                >
+                </div>
+            <div class="card-info">
+                <h3>Salada Fresh</h3>
+                <p>Mix de folhas, grãos e molho cítrico especial.</p>
+                <span>R$ 45,00</span>
+            </div>
+        </div>
+        <div class="card unico">
+            <div 
+                class="card-image" 
+                style="background-image: url('img/salada-fresh.webp');"
+            >
+            </div>
+            <div class="card-info">
+                <h3>Panqueca Gourmet</h3>
+                <p>Mel orgânico, frutas da estação e chantilly.</p>
+                <span>R$ 38,00</span>
+            </div>
+        </div>
+        <div class="card">
+            <div 
+            class="card-image" 
+            style="background-image: url('img/espetinho-premium.webp');"
+            >
+            </div>
+            <div class="card-info">
+                <h3>Espetinho Premium</h3>
+                <p>Corte Angus com farofa artesanal.</p>
+                <span>R$ 55,00</span>
+            </div>
+        </div>
+            </div>
+        </section>
+        </section>
+        <section id="contato" class="content-section">
+            <h2>Reserve sua Mesa</h2>
+            <p>Preencha os detalhes e aguarde a nossa confirmação.</p>
+            <form class="reserva-form">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: Joel Desenvolvedor" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail de Contato</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="data">Data</label>
+                        <input type="date" id="data" name="data" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pessoas">Pessoas</label>
+                        <input type="number" id="pessoas" name="pessoas" min="1" max="15" value="2" required>
+                </div>
+            </div>
+            <button type="submit" class="btn-enviar">Solicitar Reserva</button>
+        </form>
+        </section>
+        <section id="contato" class="content-section">
+            <h2>Fale com o Chef</h2>
+            <p>Email: contato@saborecodigo.com.br</p>
+        </section>
+</main>
+</body>
+</html>
